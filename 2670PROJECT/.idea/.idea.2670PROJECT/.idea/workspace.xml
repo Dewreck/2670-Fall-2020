@@ -32,6 +32,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598502158423</updated>
       <workItem from="1598502162466" duration="134000" />
+      <workItem from="1598899351233" duration="615000" />
+      <workItem from="1598902871747" duration="1130000" />
     </task>
     <servers />
   </component>
@@ -93,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
