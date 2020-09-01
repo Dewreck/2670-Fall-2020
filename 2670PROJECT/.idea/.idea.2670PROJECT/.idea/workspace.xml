@@ -28,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/a2/58bb1c85/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -77,7 +80,8 @@
       <updated>1598502158423</updated>
       <workItem from="1598502162466" duration="134000" />
       <workItem from="1598899351233" duration="615000" />
-      <workItem from="1598902871747" duration="1130000" />
+      <workItem from="1598902871747" duration="1944000" />
+      <workItem from="1598927643089" duration="3455000" />
     </task>
     <servers />
   </component>
