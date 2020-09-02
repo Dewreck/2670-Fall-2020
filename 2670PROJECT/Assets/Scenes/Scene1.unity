@@ -343,11 +343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f089382e1c66444aa6640dc7e29ddf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 10
-  walkSpeed: 3
-  sprintSpeed: 10
-  jumpForce: 10
-  jumpCountMax: 0
+  moveSpeed: 5
+  rotateSpeed: 30
+  gravity: -10
+  jumpForce: 5
+  jumpCountMax: 2
 --- !u!143 &1557416715
 CharacterController:
   m_ObjectHideFlags: 0
