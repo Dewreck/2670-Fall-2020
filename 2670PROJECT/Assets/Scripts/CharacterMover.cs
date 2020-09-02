@@ -8,10 +8,11 @@ public class CharacterMover : MonoBehaviour
     private CharacterController controller;
     private Vector3 movement;
     public float gravity = 10f;
-    public float moveSpeed = 3f;
-    public float sprintMoveSpeed;
+    public float walkSpeed = 3f;
+    public float sprintSpeed = 10f;
     public float jumpForce = 10f;
     public int jumpCountMax;
+    private float speed;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,7 @@ public class CharacterMover : MonoBehaviour
         
         if (Input.GetButtonDown("Jump"))
         {
-            movement.y = jumpForce;
+           movement.y = jumpForce;
         }
 
         if (controller.isGrounded)
@@ -36,8 +37,17 @@ public class CharacterMover : MonoBehaviour
         {
             movement.y -= gravity;  
         }
-        
-        movement.x = Input.GetAxis("Horizontal")*moveSpeed;
+
+        movement.x = Input.GetAxis("Horizontal") * speed;
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = sprintSpeed;
+        }
+        else
+        {
+            speed = walkSpeed; 
+        }
         controller.Move(movement*Time.deltaTime);
     }
 }
