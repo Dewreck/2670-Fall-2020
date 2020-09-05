@@ -7,8 +7,8 @@ public class CharacterMover : MonoBehaviour
     private CharacterController controller;
     private Vector3 movement;
 
-    public float moveSpeed = 5f, rotateSpeed = 30f, gravity = -10f, jumpForce = 10.5f;
-    private float yVar;
+    public float walkSpeed = 5f, sprintSpeed = 10f, rotateSpeed = 150f, gravity = -10f, jumpForce = 10.5f;
+    private float yVar, moveSpeed;
 
     public int jumpCountMax = 2;
     private int jumpCount;
@@ -19,7 +19,15 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        var vInput = Input.GetAxis("Vertical")*moveSpeed;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveSpeed = sprintSpeed;
+        }
+        else
+        {
+            moveSpeed = walkSpeed;
+        }
+            var vInput = Input.GetAxis("Vertical")*moveSpeed;
         movement.Set(vInput,yVar,0);
 
         var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
