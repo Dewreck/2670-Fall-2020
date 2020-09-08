@@ -7,7 +7,7 @@ public class CharacterMover : MonoBehaviour
     private CharacterController controller;
     private Vector3 movement;
 
-    public float walkSpeed = 5f, sprintSpeed = 10f, rotateSpeed = 150f, gravity = -10f, jumpForce = 10.5f;
+    public float playerHealth = 3f, playerHealthMax = 3f, walkSpeed = 5f, sprintSpeed = 10f, rotateSpeed = 150f, gravity = -10f, jumpForce = 10.5f;
     private float yVar, moveSpeed;
 
     public int jumpCountMax = 2;
@@ -49,5 +49,15 @@ public class CharacterMover : MonoBehaviour
         
         movement = transform.TransformDirection(movement);
         controller.Move(movement * Time.deltaTime);
+
+        if (playerHealth > playerHealthMax)
+        {
+            playerHealth = playerHealthMax;
+        }
+
+        if (playerHealth < 0f)
+        {
+            playerHealth = 0f;
+        }
     }
 }

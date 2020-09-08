@@ -628,6 +628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f089382e1c66444aa6640dc7e29ddf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: 3
+  playerHealthMax: 3
   walkSpeed: 5
   sprintSpeed: 10
   rotateSpeed: 150
