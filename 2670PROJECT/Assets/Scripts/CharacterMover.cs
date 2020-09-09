@@ -59,5 +59,15 @@ public class CharacterMover : MonoBehaviour
         {
             playerHealth = 0f;
         }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            playerHealth--;
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            playerHealth++;
+        }
     }
 }
