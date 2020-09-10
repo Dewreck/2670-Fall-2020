@@ -8,7 +8,10 @@ public class CharacterMover : MonoBehaviour
     private Vector3 movement;
 
     public float playerHealth = 3f, playerHealthMax = 3f, walkSpeed = 5f, sprintSpeed = 10f, rotateSpeed = 150f, gravity = -10f, jumpForce = 10.5f;
-    private float yVar, moveSpeed;
+    private float yVar;
+
+    public FloatData normalSpeed, fastSpeed, moveSpeed;
+    
 
     public int jumpCountMax = 2;
     private int jumpCount;
@@ -19,15 +22,15 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            moveSpeed = sprintSpeed;
+            moveSpeed = fastSpeed;
         }
-        else
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            moveSpeed = walkSpeed;
+            moveSpeed = normalSpeed;
         }
-            var vInput = Input.GetAxis("Vertical")*moveSpeed;
+            var vInput = Input.GetAxis("Vertical")*moveSpeed.value;
         movement.Set(vInput,yVar,0);
 
         var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
