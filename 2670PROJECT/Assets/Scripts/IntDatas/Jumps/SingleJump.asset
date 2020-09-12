@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a628314e66b644f8345c3cf0e58296, type: 3}
-  m_Name: NormalSpeed
+  m_Script: {fileID: 11500000, guid: 7005b0b16823c2044b2400ed2d90d82c, type: 3}
+  m_Name: SingleJump
   m_EditorClassIdentifier: 
-  value: 3
+  value: 1

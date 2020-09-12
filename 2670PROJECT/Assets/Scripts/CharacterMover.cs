@@ -1,5 +1,7 @@
 ﻿
+using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
@@ -10,13 +12,16 @@ public class CharacterMover : MonoBehaviour
     public float playerHealth = 3f, playerHealthMax = 3f, walkSpeed = 5f, sprintSpeed = 10f, rotateSpeed = 150f, gravity = -10f, jumpForce = 10.5f;
     private float yVar;
 
-    public FloatData normalSpeed, fastSpeed, moveSpeed;
-    
+    public FloatData normalSpeed, fastSpeed;
+    private FloatData moveSpeed;
 
-    public int jumpCountMax = 2;
+    public IntData playerJumpCount;
     private int jumpCount;
+
+    public Vector3Data currentSpawnPoint;
     private void Start()
     {
+        moveSpeed = normalSpeed;
         controller = GetComponent<CharacterController>();
     }
 
@@ -44,7 +49,7 @@ public class CharacterMover : MonoBehaviour
             jumpCount = 0;
         }
 
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
         {
             yVar = jumpForce;
             jumpCount++;
@@ -72,5 +77,12 @@ public class CharacterMover : MonoBehaviour
         {
             playerHealth++;
         }
+    }
+
+    
+
+    private void OnEnable()
+    {
+        //set position of the player to the location data of the player
     }
 }
