@@ -19,6 +19,8 @@ public class CharacterMover : MonoBehaviour
     private int jumpCount;
 
     public Vector3Data currentSpawnPoint;
+
+    public GameObject player;
     private void Start()
     {
         moveSpeed = normalSpeed;
@@ -63,9 +65,10 @@ public class CharacterMover : MonoBehaviour
             playerHealth = playerHealthMax;
         }
 
-        if (playerHealth < 0f)
+        if (playerHealth <= 0f)
         {
-            playerHealth = 0f;
+            //playerHealth = 0f;
+            Destroy(player);
         }
 
         if (Input.GetKeyDown(KeyCode.K))

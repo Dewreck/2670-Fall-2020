@@ -48,8 +48,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +107,7 @@
       <workItem from="1599678608179" duration="1722000" />
       <workItem from="1599884002475" duration="4024000" />
       <workItem from="1600111392033" duration="3644000" />
+      <workItem from="1600230136917" duration="344000" />
     </task>
     <servers />
   </component>
