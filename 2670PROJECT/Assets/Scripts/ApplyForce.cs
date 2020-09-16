@@ -18,9 +18,5 @@ public class ApplyForce : MonoBehaviour
         rBody.AddRelativeForce(forceDirection);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
