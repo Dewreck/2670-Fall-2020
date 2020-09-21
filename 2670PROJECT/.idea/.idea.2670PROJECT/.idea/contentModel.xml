@@ -13,13 +13,15 @@
           <e p="EnemyHealth.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthEdit.cs" t="Include" />
-          <e p="Instancer.cs" t="Include" />
+          <e p="InstancerBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="JumpPowerUp.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
-          <e p="LookAt.cs" t="Include" />
+          <e p="LookAtBehaviour.cs" t="Include" />
+          <e p="MouseEventsBehavior.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
-          <e p="SpawnPoint.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
+          <e p="SpawnPointBehaviour.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
