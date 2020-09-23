@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -33,17 +34,19 @@ public class CharacterMover : MonoBehaviour
         {
             moveSpeed = fastSpeed;
         }
+
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             moveSpeed = normalSpeed;
         }
-            var vInput = Input.GetAxis("Vertical")*moveSpeed.value;
-        movement.Set(vInput,yVar,0);
 
-        var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
-        transform.Rotate(0,hInput,0);
+        var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
+        movement.Set(vInput, yVar, 0);
 
-        yVar += gravity*Time.deltaTime;
+        var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
+        transform.Rotate(0, hInput, 0);
+
+        yVar += gravity * Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)
         {
@@ -56,36 +59,10 @@ public class CharacterMover : MonoBehaviour
             yVar = jumpForce;
             jumpCount++;
         }
-        
+
         movement = transform.TransformDirection(movement);
         controller.Move(movement * Time.deltaTime);
 
-        if (playerHealth > playerHealthMax)
-        {
-            playerHealth = playerHealthMax;
-        }
 
-        if (playerHealth <= 0f)
-        {
-            //playerHealth = 0f;
-            Destroy(player);
-        }
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            playerHealth--;
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            playerHealth++;
-        }
-    }
-
-    
-
-    private void OnEnable()
-    {
-        transform.position = currentSpawnPoint.value;
     }
 }
