@@ -8,10 +8,13 @@ public class InstancerBehaviour : MonoBehaviour
     public GameObject prefab;
 
     public Vector3Data rotationDirection;
-    //Make a method to call the Instance method
     
+
+    
+
     public void Instance()
     {
+        print("fire");
         var location = transform.position;
         Instantiate(prefab,location,Quaternion.Euler(rotationDirection.value));
     }

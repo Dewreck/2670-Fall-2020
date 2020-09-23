@@ -496,6 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6456551509583496792, guid: d694c7db922a9044f9d6eee59d666fd2, type: 3}
+  rotationDirection: {fileID: 11400000, guid: a2141ed83e3c29b44a15985fbdaa6f2b, type: 2}
 --- !u!1 &692745258
 GameObject:
   m_ObjectHideFlags: 0
