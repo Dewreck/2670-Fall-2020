@@ -57,11 +57,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MouseLocationBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InstancerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InstancerBehavior.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +126,7 @@
       <workItem from="1600888089388" duration="2340000" />
       <workItem from="1600890607389" duration="1838000" />
       <workItem from="1601011542882" duration="1371000" />
+      <workItem from="1601060222172" duration="4145000" />
     </task>
     <servers />
   </component>

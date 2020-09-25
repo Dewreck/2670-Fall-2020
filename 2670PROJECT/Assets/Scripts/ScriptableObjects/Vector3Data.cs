@@ -21,4 +21,6 @@ public class Vector3Data : ScriptableObject
     {
         value = obj.eulerAngles;
     }
+    
+    
 }
