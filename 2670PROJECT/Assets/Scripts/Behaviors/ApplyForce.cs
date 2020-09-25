@@ -7,6 +7,7 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
     private Rigidbody rBody;
+    
     public float force = 30f;
     
     // Start is called before the first frame update
@@ -14,7 +15,6 @@ public class ApplyForce : MonoBehaviour
     {
         rBody = GetComponent<Rigidbody>();
         var forceDirection = new Vector3(force,0,0);
-        //forceDirection needs to be based on Player rotation (Scriptable Object)
         rBody.AddRelativeForce(forceDirection);
     }
 
