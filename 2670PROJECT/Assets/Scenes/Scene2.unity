@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6456551509583496792, guid: d694c7db922a9044f9d6eee59d666fd2, type: 3}
-  rotationDirection: {fileID: 11400000, guid: 0653cee5908ec5e449e509e966d1f8d4, type: 2}
+  rotationDirection: {fileID: 11400000, guid: a2141ed83e3c29b44a15985fbdaa6f2b, type: 2}
 --- !u!23 &1979246654
 MeshRenderer:
   m_ObjectHideFlags: 0
