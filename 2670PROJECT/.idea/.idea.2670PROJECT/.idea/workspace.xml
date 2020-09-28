@@ -33,7 +33,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MouseLocationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/a2/58bb1c85/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,10 +60,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MouseLocationBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InstancerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +134,7 @@
       <workItem from="1601011542882" duration="1371000" />
       <workItem from="1601060222172" duration="4300000" />
       <workItem from="1601180123537" duration="773000" />
+      <workItem from="1601320200750" duration="2787000" />
     </task>
     <servers />
   </component>

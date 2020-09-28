@@ -13,9 +13,11 @@
             <e p="CharacterMover.cs" t="Include" />
             <e p="InstancerBehavior.cs" t="Include" />
             <e p="LookAtBehavior.cs" t="Include" />
+            <e p="MonoEventsBehavior.cs" t="Include" />
             <e p="MouseEventsBehavior.cs" t="Include" />
             <e p="MouseLocationBehavior.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
+            <e p="TriggerEventBehavior.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="Debugger.cs" t="Include" />
