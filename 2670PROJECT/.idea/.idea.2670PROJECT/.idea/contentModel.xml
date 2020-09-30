@@ -20,6 +20,7 @@
             <e p="TriggerEventBehavior.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
+            <e p="BoolData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />

@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class MonoEventsBehavior : MonoBehaviour
 {
-    public UnityEvent startEvent, onEnableEvent;
+    public UnityEvent startEvent, onEnableEvent, outOfBoundsEvent;
 
     private void Start()
     {
@@ -14,5 +14,10 @@ public class MonoEventsBehavior : MonoBehaviour
     private void OnEnable()
     {
         onEnableEvent.Invoke();
+    }
+
+    private void OutOfBounds()
+    {
+        outOfBoundsEvent.Invoke();
     }
 }

@@ -65,9 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolData.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +136,7 @@
       <workItem from="1601060222172" duration="4300000" />
       <workItem from="1601180123537" duration="773000" />
       <workItem from="1601320200750" duration="2787000" />
+      <workItem from="1601440517859" duration="942000" />
     </task>
     <servers />
   </component>
