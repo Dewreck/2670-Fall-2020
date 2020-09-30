@@ -34,6 +34,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/a2/58bb1c85/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -69,6 +70,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +139,7 @@
       <workItem from="1601180123537" duration="773000" />
       <workItem from="1601320200750" duration="2787000" />
       <workItem from="1601440517859" duration="942000" />
+      <workItem from="1601493130112" duration="2981000" />
     </task>
     <servers />
   </component>
