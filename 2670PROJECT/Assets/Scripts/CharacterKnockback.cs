@@ -1,32 +1,44 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.XR.WSA.Input;
 
-
+[RequireComponent(typeof(CharacterController))]
 public class CharacterKnockback : MonoBehaviour
 {
-    public CharacterController controller;
-    public Vector3 knockBackVector;
-    public float knockBackForce = 50f;
-    private float tempForce;
-    private void Start()
+    private CharacterController controller;
+    
+    public Vector3 move;
+
+    void Start()
     {
-        tempForce = knockBackForce;
+        controller = GetComponent<CharacterController>();
     }
 
-    private IEnumerator OnTriggerEnter(Collider other)
+    
+
+    //private IEnumerator KnockBack (Collider other)
+   // {
+        //var i = 2f;
+        //move = hit.collider
+    //}
+
+    public float pushPower = 10f;
+
+    void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if ((controller.collisionFlags & CollisionFlags.Sides) != 0)
+        var body = hit.collider.attachedRigidbody;
+
+        if (body == null || body.isKinematic)
         {
-            print("side hit");
+            return;
+        }
+
+        if (hit.moveDirection.y < -0.3)
+        {
+            return;
         }
         
-        knockBackForce = tempForce;
-        while (knockBackForce > 0)
-        {
-            knockBackVector.x = knockBackForce*Time.deltaTime;
-            controller.Move(knockBackVector);
-            knockBackForce -= 0.1f;
-            yield return new WaitForFixedUpdate();
-        }
+        //var pushDir = new Vector3(hit.moveDirection);
     }
 }

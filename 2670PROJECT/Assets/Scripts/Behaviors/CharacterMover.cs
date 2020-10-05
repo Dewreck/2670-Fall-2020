@@ -41,10 +41,11 @@ public class CharacterMover : MonoBehaviour
         }
 
         var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
-        movement.Set(vInput, yVar, 0);
+        var hInput = Input.GetAxis("Horizontal") * moveSpeed.value;
+        movement.Set(hInput, yVar, vInput);
 
-        var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
-        transform.Rotate(0, hInput, 0);
+        //var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
+        //transform.Rotate(0, hInput, 0);
 
         yVar += gravity * Time.deltaTime;
 
@@ -62,7 +63,21 @@ public class CharacterMover : MonoBehaviour
 
         movement = transform.TransformDirection(movement);
         controller.Move(movement * Time.deltaTime);
+    }
 
+    private Vector3 direction = Vector3.zero;
+    public float pushPower = 3f;
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var body = hit.collider.attachedRigidbody;
 
+        if (body == null)
+        {
+            return;
+        }
+
+        direction.Set(hit.moveDirection.x,0, hit.moveDirection.z);
+        var pushDirection = direction * pushPower;
+        body.velocity = pushDirection;
     }
 }
