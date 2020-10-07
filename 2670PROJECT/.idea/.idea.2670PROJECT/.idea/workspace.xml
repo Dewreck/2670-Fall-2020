@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PlatformMoveBehavior.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +143,7 @@
       <workItem from="1601493130112" duration="2981000" />
       <workItem from="1601611909218" duration="679000" />
       <workItem from="1601925688781" duration="3414000" />
+      <workItem from="1602046027751" duration="394000" />
     </task>
     <servers />
   </component>

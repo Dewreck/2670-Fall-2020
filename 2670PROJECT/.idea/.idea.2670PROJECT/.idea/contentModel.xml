@@ -16,6 +16,7 @@
             <e p="MonoEventsBehavior.cs" t="Include" />
             <e p="MouseEventsBehavior.cs" t="Include" />
             <e p="MouseLocationBehavior.cs" t="Include" />
+            <e p="PlatformMoveBehavior.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="TriggerEventBehavior.cs" t="Include" />
           </e>
