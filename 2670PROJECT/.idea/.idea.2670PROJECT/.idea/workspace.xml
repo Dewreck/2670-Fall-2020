@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PlatformMoveBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
       </list>
     </option>
   </component>
@@ -150,6 +151,7 @@
       <workItem from="1601925688781" duration="3414000" />
       <workItem from="1602046027751" duration="394000" />
       <workItem from="1602097511583" duration="3673000" />
+      <workItem from="1603134938417" duration="2040000" />
     </task>
     <servers />
   </component>
