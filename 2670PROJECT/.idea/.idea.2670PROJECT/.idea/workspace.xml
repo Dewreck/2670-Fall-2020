@@ -30,8 +30,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/InstancerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MouseLocationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/a2/58bb1c85/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,6 +79,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" />
       </list>
     </option>
   </component>
@@ -152,6 +156,7 @@
       <workItem from="1602046027751" duration="394000" />
       <workItem from="1602097511583" duration="3673000" />
       <workItem from="1603134938417" duration="2040000" />
+      <workItem from="1603307346546" duration="2465000" />
     </task>
     <servers />
   </component>

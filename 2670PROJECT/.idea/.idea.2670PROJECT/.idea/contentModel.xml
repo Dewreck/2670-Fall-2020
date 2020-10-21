@@ -12,6 +12,7 @@
             <e p="AIBehavior.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="InstancerBehavior.cs" t="Include" />
             <e p="LookAtBehavior.cs" t="Include" />
@@ -25,6 +26,7 @@
           <e p="CharacterKnockback.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="BoolData.cs" t="Include" />
+            <e p="CharacterStateMachineData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
