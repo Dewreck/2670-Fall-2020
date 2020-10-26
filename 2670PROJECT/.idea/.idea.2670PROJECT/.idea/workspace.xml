@@ -76,11 +76,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PlatformMoveBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InvokeBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +158,7 @@
       <workItem from="1602097511583" duration="3673000" />
       <workItem from="1603134938417" duration="2040000" />
       <workItem from="1603307346546" duration="2465000" />
+      <workItem from="1603739824191" duration="656000" />
     </task>
     <servers />
   </component>

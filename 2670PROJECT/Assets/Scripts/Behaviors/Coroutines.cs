@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Coroutines : MonoBehaviour
 {
-    public int counter = 100;
+    public int counter = 100, counterMax = 100;
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
     private WaitForSeconds wfs = new WaitForSeconds(1f);
     private IEnumerator Start()
@@ -19,7 +19,7 @@ public class Coroutines : MonoBehaviour
         
         yield return wfs;
         
-        while (counter < 100)
+        while (counter < counterMax)
         {
             yield return wffu;
             transform.Translate(-0.1f,0,0);

@@ -15,6 +15,7 @@
             <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="InstancerBehavior.cs" t="Include" />
+            <e p="InvokeBehavior.cs" t="Include" />
             <e p="LookAtBehavior.cs" t="Include" />
             <e p="MonoEventsBehavior.cs" t="Include" />
             <e p="MouseEventsBehavior.cs" t="Include" />

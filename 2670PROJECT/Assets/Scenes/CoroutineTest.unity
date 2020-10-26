@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a32325c12c5a2bb409701bc04751159a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counter: 100
+  counter: 50
+  counterMax: 100
 --- !u!65 &354762099
 BoxCollider:
   m_ObjectHideFlags: 0
