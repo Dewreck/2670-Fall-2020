@@ -15,6 +15,7 @@ public class Coroutines : MonoBehaviour
             yield return wffu;
             transform.Translate(0.1f,0,0);
             counter--;
+            
         }
         
         yield return wfs;
@@ -24,9 +25,12 @@ public class Coroutines : MonoBehaviour
             yield return wffu;
             transform.Translate(-0.1f,0,0);
             counter++;
+            
         }
         
         yield return wfs;
+        
+        
 
         StartCoroutine(Start());
     }
